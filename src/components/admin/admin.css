@@ -1,0 +1,20 @@
+.btn.btn-sm.btn-outline-primary, .btn.btn-outline-primary{
+background: var(--button-black-bg) !important;
+border: 1px solid var(--button-black-border) !important;
+color: var(--button-black-text) !important;
+}
+
+.btn.btn-sm.btn-outline-secondary, .btn.btn-outline-secondary {
+    background: var(--button-yellow-bg) !important;
+    border: 1px solid var(--button-yellow-border) !important;
+    color: var(--button-yellow-text) !important;
+}
+
+.user-pic.dropdown img {width: 40px;height: 40px !important;border-radius: 50%;}
+.user-pic.dropdown .btn {background-color: transparent;padding: 0;border: 0;}
+.user-pic.dropdown .btn.dropdown-toggle:after{ display: none;}
+
+
+.app-sidebar .sidebar-link {flex-direction: row;padding: 0px 10px;}
+.app-sidebar .sidebar-link .icon {width: 30px;height: 30px;}
+.app-sidebar .sidebar-link .icon svg {width: 20px;}
