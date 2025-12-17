@@ -18,7 +18,7 @@ const Footer = () => {
                             <div className='foot-logo'>
                                 <Image src={LogoYellow} alt='' />
                             </div>
-                            <p className='mb-0'>Test your strategy in EPL, AFL & NRL. Choose wisely, survive each round, and become the Last Man Standing Champion.
+                            <p className='mb-0'>Test your knowledge in NRL and AFL.  Choose wisely, pick a winning team every week to survive each round and become the Last Man Standing Champion
 
                             </p>
                         </div>

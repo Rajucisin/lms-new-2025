@@ -65,7 +65,7 @@ const Contact = () => {
                   </div>
                   <div className='flex-grow-1'>
                     <p className='text-uppercase'>Response Time</p>
-                    <p>We aim to replay within <span>24 hours</span>.</p>
+                    <p>We aim to reply within <span>24 hours</span>.</p>
                   </div>
                 </div>
               </div>

@@ -29,7 +29,7 @@ const HomePage = () => {
                                 <h2 className="hd-title">
                                     Why Players Love <span className='d-block'>LMS</span>
                                 </h2>
-                                <p>It's not just about betting; it's about strategy, knowledge, and holding your nerve when the pressure is on.</p>
+                                <p>It’s not just about betting; it’s about strategy, knowledge and holding your nerve when the pressure is on.</p>
                                 <div className="mt-16">
                                     <button className="btn-theme btn-yellow">Start Playing</button>
                                 </div>
@@ -88,18 +88,21 @@ const HomePage = () => {
             </section>
             <section className="sec-protection-licensing bg-darker sec-gap">
                 <div className="container max-container">
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex">
                         <div className="shield">
                             <svg viewBox="0 0 640 640"><path d="M320 64C324.6 64 329.2 65 333.4 66.9L521.8 146.8C543.8 156.1 560.2 177.8 560.1 204C559.6 303.2 518.8 484.7 346.5 567.2C329.8 575.2 310.4 575.2 293.7 567.2C121.3 484.7 80.6 303.2 80.1 204C80 177.8 96.4 156.1 118.4 146.8L306.7 66.9C310.9 65 315.4 64 320 64zM320 130.8L320 508.9C458 442.1 495.1 294.1 496 205.5L320 130.9L320 130.9z" fill='currentColor' /></svg>
                         </div>
                         <div className='flex-grow-1'>
                             <h4>NT Licensing & Player Protection
                             </h4>
-                            <p className="muted">LMS is licensed by the Northern Territory Racing Commission.
-                                All prize funds are held in a dedicated Customer trust account.
-                            </p>
-                            <p className='muted mb-0'>LMS takes some skill but please participate responsibly.
-                            </p>
+                            <ul className='list-bullet mb-24'>
+                                <li>LMS is licensed by the Northern Territory Racing Commission.
+                                All prize funds are held in a dedicated Customer trust account.</li>
+                                <li>LMS takes some skill but please participate responsibly.</li>
+                                <li>You must be over the age of 18 to join LMS.  Imagine what you could be buying instead.
+</li>
+                                <li>For free and confidential support call 1800 858 858 or visit gamblinghelponline.org.au.  Not available to residents of South Australia.</li>
+                            </ul>
                         </div>
                     </div>
 

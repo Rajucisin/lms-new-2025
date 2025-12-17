@@ -16,7 +16,7 @@ const FAQ = () => {
                 <div className='page-header'>
                     <h2 className='page-title'>Frequently Asked Questions
                     </h2>
-                    <p> Quick answers to the most common questions about how LMS works —
+                    <p> Quick answers to the most common questions about how LMS Punters Club works —
                         picks, rules, eliminations, prize pools and more.</p>
                 </div>
 

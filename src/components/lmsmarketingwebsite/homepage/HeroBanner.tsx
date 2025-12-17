@@ -16,10 +16,10 @@ const HeroBanner = () => {
             <div className='container max-container'>
                 <div className='row align-items-center'>
                     <div className='col-md-6'>
-                        <h3>Win or Out</h3>
+                        <h3>LMS Punters Club</h3>
                         <h1>The Ultimate
                             Survival Game</h1>
-                        <p className='font-20 mb-24'>Test your strategy in EPL, AFL & NRL. Choose wisely, survive each round, and become the Last Man Standing Champion.</p>
+                        <p className='font-20 mb-24'>Test your knowledge in NRL and AFL.  Choose wisely, pick a winning team every week to survive each round and become the Last Man Standing Champion</p>
 
                         <div className='d-flex align-items-center gap-3'>
                             <Link href="" className='btn-theme btn-yellow'>Join Now
