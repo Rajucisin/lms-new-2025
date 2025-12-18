@@ -31,7 +31,7 @@ const HomePage = () => {
                                 </h2>
                                 <p>It’s not just about betting; it’s about strategy, knowledge and holding your nerve when the pressure is on.</p>
                                 <div className="mt-16">
-                                    <button className="btn-theme btn-yellow">Start Playing</button>
+                                    <button className="btn-theme btn-yellow">Join now</button>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +98,7 @@ const HomePage = () => {
                             <ul className='list-bullet mb-24'>
                                 <li>LMS is licensed by the Northern Territory Racing Commission.
                                 All prize funds are held in a dedicated Customer trust account.</li>
-                                <li>LMS takes some skill but please participate responsibly.</li>
+                                <li>Gamble Responsibly.</li>
                                 <li>You must be over the age of 18 to join LMS.  Imagine what you could be buying instead.
 </li>
                                 <li>For free and confidential support call 1800 858 858 or visit gamblinghelponline.org.au.  Not available to residents of South Australia.</li>

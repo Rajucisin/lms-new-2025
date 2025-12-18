@@ -4352,10 +4352,12 @@ sub {bottom: 0px;}
     font-size: 20px;
     margin-bottom: 20px;
 }
-.footer-colum p{ color: var(--foot-color);}
+.footer-colum p{ color: var(--foot-color); font-size: 15px;}
 .footer-colum li{ margin-bottom: 10px;}
-.footer-colum li a{ color: var(--foot-color);}
+.footer-colum li a{ color: var(--foot-color); font-size: 15px;}
 .footer-colum li a:hover{ color: var(--yellow);}
+
+.login-text a{ color: var(--yellow);}
 
 .page-header{ color: var(--bs-white); margin-bottom: 50px;}
 .page-header .page-title{ font-size: 50px;color: var(--bs-white);}

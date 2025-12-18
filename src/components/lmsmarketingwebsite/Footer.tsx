@@ -18,8 +18,9 @@ const Footer = () => {
                             <div className='foot-logo'>
                                 <Image src={LogoYellow} alt='' />
                             </div>
-                            <p className='mb-0'>Test your knowledge in NRL and AFL.  Choose wisely, pick a winning team every week to survive each round and become the Last Man Standing Champion
-
+                            <p>You must be over the age of 18 to join LMS.</p>
+                            <p className='mb-0'>
+                                Gamble Responsibly. Imagine what you could be buying instead  For free and confidential support call 1800 858 858 or visit gamblinghelponline.org.au.  LMS Punters Club is licenced by the Northern Territory Racing Commission under Licence No XXXX.  Not available to residents of South Australia.
                             </p>
                         </div>
                     </div>
