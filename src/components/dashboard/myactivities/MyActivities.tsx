@@ -17,7 +17,7 @@ const MyActivities = () => {
                         </p>
                         <div className="help-box ">
                             <p className='m-0 font-20 mb-mobile'>
-                                <span>If you need a statement for a particular date range please contact us via</span> <Link href="#" className='link-underline-text'> Live Chat</Link>
+                                <span>If you need a statement for a particular date range please </span> <Link href="#" className='link-underline-text'>Contact</Link>
                                 </p> 
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const MyActivities = () => {
                                     <ul className="month-list">
                                         <li className="month-item active">
                                             <span className='m-name'>Nov</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -65,7 +65,7 @@ const MyActivities = () => {
                                         </li>
                                         <li className="month-item active">
                                             <span className='m-name'>Mar</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -90,7 +90,7 @@ const MyActivities = () => {
                                     <ul className="month-list">
                                         <li className="month-item active">
                                             <span className='m-name'>Nov</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -126,7 +126,7 @@ const MyActivities = () => {
                                         </li>
                                         <li className="month-item active">
                                             <span className='m-name'>Mar</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -151,7 +151,7 @@ const MyActivities = () => {
                                     <ul className="month-list">
                                         <li className="month-item active">
                                             <span className='m-name'>Nov</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -187,7 +187,7 @@ const MyActivities = () => {
                                         </li>
                                         <li className="month-item active">
                                             <span className='m-name'>Mar</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -212,7 +212,7 @@ const MyActivities = () => {
                                     <ul className="month-list">
                                         <li className="month-item active">
                                             <span className='m-name'>Nov</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
@@ -248,7 +248,7 @@ const MyActivities = () => {
                                         </li>
                                         <li className="month-item active">
                                             <span className='m-name'>Mar</span>
-                                            <Link href="" className='arrow-box-right'>
+                                            <Link href="/dashboard/activitystatement" className='arrow-box-right'>
                                                 <span className="icon">
                                                     View Activity
                                                 </span>
