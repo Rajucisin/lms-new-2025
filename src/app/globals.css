@@ -8,6 +8,7 @@ body {  font-family: "Inter", sans-serif !important; font-size: 16px; color: var
 ul,ol{ padding: 0; margin: 0; list-style: none;}
     
 :root {
+--activity-statement-color:#000;    
 --view-activity:#0d6efd;
 --month-name:#595959;    
 --section-bg:#102217;
@@ -4487,6 +4488,8 @@ sub {bottom: 0px;}
 .title.font-24 { font-size: 24px;}
 
 .bg-color{ background-color: #f5f5f5 !important;}
+
+.activity-statement {color: #000;}
 
 @media print {
   .bg-color {
