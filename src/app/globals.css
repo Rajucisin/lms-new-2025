@@ -4446,6 +4446,34 @@ sub {bottom: 0px;}
 
 .hd-title .d-block{ color: var(--yellow) !important;}
 
+
+.sec-my-activities .accordion-button{ font-weight: 600; font-size: 20px;}
+
+.help-box {
+    color: var(--black);
+    background: var(--gray);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.month-list .month-item { display: flex; align-items: center; justify-content: space-between;
+}
+.month-list .month-item .icon svg {
+    width: 18px;
+}
+.month-list .month-item .icon {
+    display: flex;
+    align-items: center;
+}
+
+.month-list .month-item:not(:last-child) {
+    border-bottom: 1px solid var(--border-card-setting);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.month-list .status { color: var(--setting-paragraph);}
+
+
 @media (max-width: 1199px) {
 .hero-banner h3 {font-size: 35px;}    
 .hero-banner h1 {font-size: 60px;}
