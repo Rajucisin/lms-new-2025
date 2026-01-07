@@ -4698,7 +4698,7 @@ sub {bottom: 0px;}
 
 @media (max-width: 767px) {
 .sec-coming-soon .font-40{ font-size: 20px;}
-.loader { width: 5px;}
+.loader { width: 5px; margin-bottom: 5px;}
 .sec-coming-soon .contact-form .form-control { height: 50px; padding-right: 120px;}
 .sec-coming-soon .contact-form .btn-theme{ font-size: 14px;}
 }
