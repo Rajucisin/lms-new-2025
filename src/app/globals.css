@@ -4579,3 +4579,115 @@ sub {bottom: 0px;}
 
 
 }
+
+/* Coming sonn page start */
+.sec-coming-soon {
+     min-height: 100vh;
+     position: relative;
+}
+
+.sec-coming-soon:before {
+    content: "";
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    background: linear-gradient(to top, #081a0f, rgb(189 195 199 / 2%));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.sec-coming-soon .contact-form {
+    max-width: 512px;
+    margin: 0 auto;
+}
+.sec-coming-soon .contact-form .form-control{
+    height: 56px;
+    border-radius: 30px;
+    padding: 6px 20px;
+    padding-right: 160px;
+    background-color: rgb(28 46 36 / 0.6) !important;
+    border-color: rgb(255 255 255 / 0.2) !important;
+}
+.sec-coming-soon .contact-form .form-control:focus{ border-color: var(--yellow) !important;}
+.sec-coming-soon .d-flex.align-items-center.gap-3 {
+    position: relative;
+}
+.sec-coming-soon .contact-form .btn-theme {
+    white-space: nowrap;
+    border-radius: 30px;
+    position: absolute;
+    right: 0;
+}
+.sec-coming-soon .contact-form .form-control::placeholder{
+    color:rgb(156 163 175);
+}
+.age-text{ color:rgb(156 163 175); font-weight: 600;}
+.sec-coming-soon .container.max-container {
+    max-width: 1075px;
+}
+.sec-coming-soon .font-40 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, #f3fe51 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 28px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  animation: l5 1s infinite linear alternate;
+}
+@keyframes l5 {
+  /* Start */
+  0% {
+    background: #f3fe51;
+    box-shadow: 
+      20px 0 #f3fe51,
+     -20px 0 #f3fe5122;
+  }
+
+  /* Middle step 1 */
+  33% {
+    background: #f3fe5122;
+    box-shadow: 
+      20px 0 #f3fe51,
+     -20px 0 #f3fe5122;
+  }
+
+  /* Middle step 2 */
+  66% {
+    background: #f3fe5122;
+    box-shadow: 
+      20px 0 #f3fe5122,
+     -20px 0 #f3fe51;
+  }
+
+  /* End (loops back to start smoothly) */
+  100% {
+    background: #f3fe51;
+    box-shadow: 
+      20px 0 #f3fe5122,
+     -20px 0 #f3fe51;
+  }
+}
+
+@media (max-width: 767px) {
+.sec-coming-soon .font-40{ font-size: 20px;}
+.loader { width: 5px;}
+.sec-coming-soon .contact-form .form-control { height: 50px; padding-right: 120px;}
+.sec-coming-soon .contact-form .btn-theme{ font-size: 14px;}
+}
+
+/* Coming sonn page end */
