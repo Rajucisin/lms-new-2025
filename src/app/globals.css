@@ -4622,6 +4622,19 @@ sub {bottom: 0px;}
     position: absolute;
     right: 0;
 }
+.coming-soon-head { margin-bottom: 50px;}
+.coming-soon-head p {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.coming-soon-head .logo {
+    margin-bottom: 15px;
+}
+
+.hero-banner.sec-coming-soon {
+    padding: 30px 0;
+}
+
 .sec-coming-soon .contact-form .form-control::placeholder{
     color:rgb(156 163 175);
 }

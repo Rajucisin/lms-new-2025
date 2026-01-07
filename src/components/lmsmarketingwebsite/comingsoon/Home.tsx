@@ -7,9 +7,9 @@ import ComingSoon from './ComingSoon'
 const Home = () => {
   return (
     <div>
-       <Header fixed />
+       {/* <Header fixed /> */}
        <ComingSoon/>
-       <Footer/>
+       {/* <Footer/> */}
     </div>
   )
 }
